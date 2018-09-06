@@ -93,5 +93,5 @@ $('#enter-site').click(function(){
 });
 
 $('#enter-site').click(function(){
-  $('.coming-soon').addClass('show');
+  $('.main').addClass('show');
 });
