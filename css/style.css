@@ -1,0 +1,80 @@
+html, body, #tv {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#tv {
+	top: 0;
+	left: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000;
+}
+
+svg{
+  max-width:500px;
+  height:auto;
+  animation: pulse 3s infinite;
+  
+}
+.loading-screen{
+  height:100vh;
+}
+.container{
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  padding:50px;
+}
+
+#wicked{
+  animation: fadeIn 3s;
+  padding:100px;
+}
+
+#vid{
+  animation: fadeIn 7s;
+  padding:100px;
+}
+
+#enter-site{
+  padding-top:80px;
+  width:250px;
+  animation: fadeIn 12s;
+  animation: flash 3s infinite;
+  cursor:pointer;
+}
+.coming-soon{
+  display:none;
+  background-size:cover;
+  background-position:center;
+  width:100%;
+  height:100vh;
+  justify-content:center;
+}
+.hide{
+  display:none;
+}
+.show{
+  display:flex;
+}
+.coffee-cup{
+  animation: slideInDown 1s;
+  width:500px;
+  height:100vh;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1270439/coming-soon%402x.png);
+  background-size: contain;
+  background-repeat:no-repeat;
+  background-position:center;
+}
