@@ -20,7 +20,7 @@ html, body, #tv {
 }
 
 svg {
-    max-width: 500px;
+    max-width: 670px;
     height: auto;
     animation: pulse 3s infinite;
 }
