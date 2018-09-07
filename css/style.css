@@ -78,12 +78,12 @@ svg {
 }
 
 .title {
-    width: 100px;
+    width: 280px;
     background: url(../images/wicked-vid-logo@2x.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    padding: 140px;
+    padding: 112px;
 }
 
 .resp-container {
