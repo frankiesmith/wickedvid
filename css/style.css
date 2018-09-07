@@ -66,6 +66,7 @@ svg {
     height: 100vh;
     margin: auto;
     align-items: center;
+    flex-direction: column;
 }
 
 .hide {
@@ -74,6 +75,15 @@ svg {
 
 .show {
     display: flex;
+}
+
+.title {
+    width: 280px;
+    background: url(../images/wicked-vid-logo@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 112px;
 }
 
 .resp-container {
