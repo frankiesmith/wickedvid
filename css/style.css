@@ -73,6 +73,7 @@ svg {
 }
 
 .resp-container {
+    animation: slideInUp 2s;
     width: 100%;
     position: relative;
     overflow: hidden;
