@@ -59,6 +59,7 @@ svg {
 .main {
     display: none;
     max-width: 940px;
+    height: 100vh;
     margin: auto;
     align-items: center;
 }
